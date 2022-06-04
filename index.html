@@ -119,7 +119,7 @@
                 <p>The following hand-formatted one-liner (i.e. minified) script uses the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API" rel="nofollow" target="_blank">Web Crypto API</a> to generate an <em>epic password</em>: <strong>8,192 bytes</strong> (yes, characters) of <em>cryptographically strong</em> random values; locally, right inside your web browser with no information sent over the network. It is then hashed using SHA256 as a multipurpose function for hex-encoding this binary data, reducing its size to a more realistic 64 bytes, all while maintaining its cryptographic strength using its <a href="https://en.wikipedia.org/wiki/SHA-2" rel="nofollow" target="_blank">SHA-2 cryptographic properties</a>.</p>
                 <div class="my-5">
                     <div class="mb-3 p-3 bg-light font-monospace">
-                        <pre>(function (csrngSize=8192) {
+                        <pre class="m-0">(function (csrngSize=8192) {
   return window.crypto.subtle.digest('SHA-256', window.crypto.getRandomValues(new Uint8Array(csrngSize)))
    .then(function(buf) {
       return Array.prototype.map.call(new Uint8Array (buf) , function(x) { return ('00'+x).toString(16).slice(-2); })
