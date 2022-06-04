@@ -111,6 +111,15 @@
                     <li>Because these "bussels" (baby muscles) need to grow up a little...</li>
                     <li>It's also a fairly effective way of offloading the tension, stress, anxiety, etc. of what feels like a really long and frustrating day (or so I'm told).</li>
                 </ul>
+            </section>
+            <section id="tools">
+                <h1>Power Tools</h1>
+                <p>These are my cool tools...you can use them, but make sure you give them back when you're done!</p>
+                <h2>Password Generator</h2>
+                <p>The following minified script uses the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API" rel="nofollow" target="_blank">Web Crypto API</a> to generate an <em>epic password</em>: 8,192 bytes of cryptographically strong random values; locally, right inside your web browser with no information sent over the network. It is then hashed using SHA256 as a multipurpose function for hex-encoding this binary data, reducing its size to a more realistic 64 bytes, all while maintaining its cryptographic strength using its <a href="https://en.wikipedia.org/wiki/SHA-2" rel="nofollow" target="_blank">SHA-2 cryptographic properties</a>.</p>
+                <div class="mt-5 mb-3 p-3 bg-light font-monospace">(function(csrngSize=8192){return window.crypto.subtle.digest('SHA-256',window.crypto.getRandomValues(new Uint8Array(csrngSize))).then(buf=>Array.prototype.map.call(new Uint8Array(buf),x=>(('00'+x.toString(16)).slice(-2))).join('')).then(hash=>alert('Here you go: ' + hash))})()</div>
+                <p><button class="btn btn-sm btn-dark" onclick="javascript:(function(csrngSize=8192){return window.crypto.subtle.digest('SHA-256',window.crypto.getRandomValues(new Uint8Array(csrngSize))).then(buf=>Array.prototype.map.call(new Uint8Array(buf),x=>(('00'+x.toString(16)).slice(-2))).join('')).then(hash=>alert('Here you go: ' + hash))})();">Try It!</button></p>
+            </section>
         </main>
         <footer class="my-5 py-5 border-top border-bottom">
             <section id="legal">
