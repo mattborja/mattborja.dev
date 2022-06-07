@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>mattborja.dev</title>
+    <meta name="description" content="Simple elegance." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body class="p-5">
+    <div class="container">
+        <main id="top">
+            <section id="intro">
+                <div class="text-center mb-5">
+                    <img src="assets/img/hex-4270275_640.jpg" width="200" height="200" alt="Photo of this guy" class="img-thumbnail rounded-circle" />
+                </div>
+                <h1>Book of Verifications</h1>
+                <p>by Matt Borja</p>
+                <p>Following is a record of select PGP keys and a description of the distinct methods used to independently verify each. Your mileage may vary.</p>
+
+                <div class="my-5">
+                    <h2>Table of Contents</h2>
+                    <ul>
+                        <li><a href="#pgp_verify-7051C470A929F454CEBE37B715AF5DAC6D745A60">Verifying the Rocky Linux Official Signing Key</a></li>
+                        <li class="text-muted font-monospace" title="Coming soon!">...</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="pgp_verify-7051C470A929F454CEBE37B715AF5DAC6D745A60">
+                <h2>Verifying the <span class="text-danger">Rocky Linux Official Signing Key</span></h2>
+                <p><small class="text-muted">Key ID: 0x15AF5DAC6D745A60</small></p>
+                <p>I'm generally interested in software and systems calibrated for the enterprise environment (and when I say "enterprise," I'm specifically referring to highly used, highly disruptive, environments easily targeted by highly trained attackers): so whether it's for personal or professional use, I still treat it as potentially compromised binaries (i.e. I don't install it) until I can verify their integrity and origin.</p>
+                <p>Unfortunately, the vendor was unable or unwilling to participate directly in verifying their key via exercise of its private key to decrypt a message I encrypted using their public key for the following reason given:</p>
+                <blockquote class="py-5 fs-4 fst-italic">The private component of the signing key is in a vault that we cannot use nor access by normal means as it is used in automation ... with these measures in place, we won't be able to decrypt your gpg message. </blockquote>
+                <p>The key in question here is used to sign releases of the enterprise operating system I was looking to evaluate: <a href="https://rockylinux.org/about" rel="nofollow" target="_blank">Rocky Linux</a>.</p>
+                <h3>The Process</h3>
+                <p>Unable to derive assurance from a decrypted message from the vendor, I proceeded to build a logical path to sufficiently verify this key for my purposes:</p>
+                <ol>
+                    <li>Located contact information or usable <a href="https://chat.rockylinux.org/" rel="nofollow" target="_blank" title="General chat presumed to be attended by core team members; demonstrating association with and involvement in relevant work; with either opportunity for interactive key verification, else prior self-attestation of key ownership">support channel</a> for signer (via <a href="https://rockylinux.org/download/" rel="nofollow" target="_blank">download page</a>).</li>
+                    <li>Located prior self-attestation of key ownership (<code>...5A60</code>):
+                        <ul>
+                            <li><a href="https://chat.rockylinux.org/rocky-linux/pl/xuwhf4iigfftujmdamynqeazay" rel="nofollow" target="_blank">thread</a> by community member, <em>defractal</em>; and</li>
+                            <li>discovered <a href="https://github.com/NeilHanlon" rel="nofollow" target="_blank">GitHub profile</a> of <a href="https://chat.rockylinux.org/rocky-linux/channels/town-square/a8m4hq3rcjdw9noyctwmit8kzw" rel="nofollow" target="_blank" tite="Related thread showing self-attestation of project involvement as co-founder">co-founder</a>, and Team Admin, <em>Neil Hanlon</em> via <a href="https://chat.rockylinux.org/rocky-linux/pl/czen111cq3g5fdpgn4jx8fzn4y" rel="nofollow" target="_blank">thread</a> containing self-attestation of key fingerprint and cross-signature</a>.</li>
+                        </ul>
+                    </li>
+                    <li><a href="https://github.com/rocky-linux/rockylinux.org/issues?q=gpg" rel="nofollow" target="_blank" title="Fingerprint of public key used to verify open source software are normally found within the same repository and expected to ship with releases">Located</a> and independently verified affirmation and use of vendor's signing key via <a href="https://github.com/rocky-linux/rockylinux.org/issues/205" rel="nofollow" target="_blank" title="Issue description also presented hard copies of original key in question, in addition to other signing keys related to testing and infrastructure">Issue #205</a></li>
+                </ol>
+                <h3>Keys Verified</h3>
+                <p>Using this process, ownership the following keys were minimally verified to a reasonable extent for my purposes:</p>
+                <ul>
+                    <li class="mb-3">
+                        <code>7051 C470 A929 F454 CEBE 37B7 15AF 5DAC 6D74 5A60</code><br />
+                        <small class="text-muted">Rocky Linux (Rocky Linux Official Signing Key)</small>
+                    </li>
+                    <li><code>091A 4404 7C3D 8B7A 331F 5E18 5489 E42B BBE2 C108</code><br />
+                        <small class="text-muted">Rocky Linux Testing (Rocky Linux Testing Key)</small>
+                    </li>
+                    <li><code>BFC3 D8F2 0D15 F4FD 4628  1D7F AA65 0F52 D6C0 94FA</code><br />
+                        <small class="text-muted">Core Infrastructure (Compose Signing Key)</small>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <section id="legal">
+                <div class="mt-5 pt-5 border-top small text-muted text-center">
+                    <p>Copyright &copy; 2022 Matt Borja</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#top">↑ Back to top</a></li>
+                        <li class="list-inline-item"><a href="index.html">Home</a></li>
+                        <li class="list-inline-item"><a href="index.html#legal">Legal</a></li>
+                    </ul>
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+
+</html>
