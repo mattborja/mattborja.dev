@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Libre Franklin";
+  src: url('/assets/fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf');
+  src: url('/assets/fonts/Libre_Franklin/LibreFranklin-Italic-VariableFont_wght.ttf');
+}
+
 .container {
   max-width: 700px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Franklin', sans-serif;
 }
