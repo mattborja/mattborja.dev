@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Libre Franklin";
   src: url('/assets/fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf');
-  src: url('/assets/fonts/Libre_Franklin/LibreFranklin-Italic-VariableFont_wght.ttf');
 }
 
 .container {
