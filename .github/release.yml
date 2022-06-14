@@ -1,0 +1,17 @@
+changelog:
+  categories:
+    - title: New Feature
+      labels:
+        - major
+        - feature
+    - title: Update
+      labels:
+        - minor
+        - update
+    - title: Hotfix
+      labels:
+        - patch
+        - hotfix
+    - title: Other
+      labels:
+        - "*"
