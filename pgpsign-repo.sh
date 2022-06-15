@@ -22,16 +22,21 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-PGP_KEY="0x33688C2EDC08CD38"
-MANIFESTSUM_OUTPUT="./MANIFESTSUM.sig"
+TARGET_PATH="$1"
+PGP_KEY="$2"
 
-find . -type f \
-       -not -path "*/.*" \
-       -not -name "*.sig" \
-       | sort \
-       | xargs shasum -a 256 \
-       | gpg --clearsign --armor --local-user "$PGP_KEY" > "$MANIFESTSUM_OUTPUT"
+if [ -z "$TARGET_PATH" ] || [ -z "$PGP_KEY" ]; then
+  echo "Usage: $0 <TARGET_PATH> <PGP_SIGNING_KEYID>"
+  exit 1
+fi
 
-cat "$MANIFESTSUM_OUTPUT"
+find "$TARGET_PATH" -type f -not -path "*/.*" -not -name "MANIFESTSUM.asc" \
+ | sort \
+ | xargs shasum -a 256 \
+ | gpg --clearsign --armor --local-user "$PGP_KEY"
 
-echo "To verify, type: gpg -d "$MANIFESTSUM_OUTPUT" | shasum -c"
+if [ "$?" -eq 0 ]; then
+       >&2 echo "To verify (via decrypt) and verify checksums: gpg -d <FILE> | shasum -c"
+else
+       >&2 echo "Signing failed."
+fi
