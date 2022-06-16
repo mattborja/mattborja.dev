@@ -8,3 +8,8 @@ By accessing this repository, you acknowledge that you understand all of the fol
    - to any prohibited destination or to any end user who has been prohibited from participating in U.S. export transactions by any federal agency of the U.S. government; or
    - for use in connection with the design, development or production of nuclear, chemical or biological weapons, or rocket systems, space launch vehicles, or sounding rockets, or unmanned air vehicle systems.
 2. These terms are subject to change with or without notice.
+
+## Disclaimers
+Please be advised that while the information posted on this website and other related web properties has been reviewed to the extent possible, its validity, recency, or relevancy cannot be guaranteed in whole or in part. The content of any published content may recently have been changed, vandalized, or altered by someone whose opinion does not correspond with the state of knowledge in the relevant fields.
+
+No statements, recommendations, or opinions expressed by Matt Borja or affiliates anywhere shall be construed to constitute professional or legal advice.
