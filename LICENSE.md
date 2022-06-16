@@ -19,8 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Disclaimers
-Please be advised that while the information posted on this website and other related web properties has been reviewed to the extent possible, its validity, recency, or relevancy cannot be guaranteed in whole or in part. The content of any published content may recently have been changed, vandalized, or altered by someone whose opinion does not correspond with the state of knowledge in the relevant fields.
-
-No statements, recommendations, or opinions expressed by Matt Borja or affiliates anywhere shall be construed to constitute professional or legal advice.
