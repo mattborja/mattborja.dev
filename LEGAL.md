@@ -10,6 +10,6 @@ By accessing this repository, you acknowledge that you understand all of the fol
 2. These terms are subject to change with or without notice.
 
 ## Disclaimers
-Please be advised that while the information posted on this website and other related web properties has been reviewed to the extent possible, its validity, recency, or relevancy cannot be guaranteed in whole or in part. The content of any published content may recently have been changed, vandalized, or altered by someone whose opinion does not correspond with the state of knowledge in the relevant fields.
+Please be advised that while the information posted in this repository and other related repositories has been reviewed to the extent possible, its validity, recency, or relevancy cannot be guaranteed in whole or in part. The content of any published content may recently have been changed, vandalized, or altered by someone whose opinion does not correspond with the state of knowledge in the relevant fields.
 
-No statements, recommendations, or opinions expressed by Matt Borja or affiliates anywhere shall be construed to constitute professional or legal advice.
+No statements, recommendations, or opinions expressed by Matt Borja or associates anywhere shall be construed to constitute professional or legal advice.
