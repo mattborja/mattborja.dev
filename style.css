@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Libre Franklin";
-  src: url('/assets/fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf');
+  src: url('https://mattborja.dev/assets/fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf');
 }
 
 .container {
@@ -8,7 +8,11 @@
 }
 
 a, code {
-  color: #db5858;
+  color: #ce1414;
+}
+
+a:hover {
+  color: #ff5050;
 }
 
 h1, h2, h3, h4, h5, h6 {
