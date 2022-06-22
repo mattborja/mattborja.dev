@@ -3,12 +3,54 @@
   src: url('https://mattborja.dev/assets/fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf');
 }
 
+body {
+  background: url('assets/img/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  color: #fffc;
+}
+
+.border {
+  border-color: #ccca !important;
+}
+
+.bg-light {
+  background-color: #333a!important;
+}
+
+.bg-secondary {
+  background-color: #8886!important;
+}
+
+.text-primary {
+  color: #ffd966;
+}
+
+.text-danger {
+  color: #ea9999!important;
+}
+
+.text-dark {
+  color: #aaa!important;
+}
+
+.text-muted, .text-secondary {
+  color: #fff8!important;
+}
+
+.text-success {
+  color: #0e0a!important;
+}
+
 .container {
   max-width: 700px;
 }
 
 a, code {
-  color: #ce1414;
+  color: #ea9999;
 }
 
 a:hover {
