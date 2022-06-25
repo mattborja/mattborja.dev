@@ -17,6 +17,10 @@ body {
   border-color: #ccca !important;
 }
 
+.bg-dark {
+  background-color: #000a!important;
+}
+
 .bg-light {
   background-color: #333a!important;
 }
