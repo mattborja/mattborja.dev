@@ -9,6 +9,11 @@ By accessing this repository, you acknowledge that you understand all of the fol
    - for use in connection with the design, development or production of nuclear, chemical or biological weapons, or rocket systems, space launch vehicles, or sounding rockets, or unmanned air vehicle systems.
 2. These terms are subject to change with or without notice.
 
+## Use of Information
+We use the information you provide to complete services and products you request. That is, we may use your information to show you additional products (if applicable), and other relevant products and services based upon the information you provide. These offers may come from us or a third-party service provider. We may use your contact information to share with you other related products and services. As permitted by law, we may also use the information you provide to address questions submitted to our customer or technical support systems, to send updates or security alerts, marketing messages, or to provide notification of new products, services, enhancements, and promotions.
+
+Additionally, we also use the information we collect to monitor and investigate fraud, identity theft, and other illegal activity and to personalize and improve our Services.
+
 ## Disclaimers
 Please be advised that while the information posted in this repository and other related repositories has been reviewed to the extent possible, its validity, recency, or relevancy cannot be guaranteed in whole or in part. The content of any published content may recently have been changed, vandalized, or altered by someone whose opinion does not correspond with the state of knowledge in the relevant fields.
 
