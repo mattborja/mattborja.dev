@@ -1,3 +1,6 @@
+---
+permalink: /blog/150330-crypto-implementation
+---
 # Crypto Implementation (DRAFT)
 Last updated: March 30, 2015
 by Matt Borja

@@ -1,3 +1,6 @@
+---
+permalink: /blog/170921-creating-udp-load-balancers-in-snapt
+---
 # Creating UDP load balancers in Snapt
 Last updated: Sep. 21, '17
 

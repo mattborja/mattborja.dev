@@ -1,3 +1,6 @@
+---
+permalink: /blog/220303-using-pgp
+---
 # Using PGP
 Notes on using PGP.
 
