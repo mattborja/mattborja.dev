@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="canonical" href="https://mattborja.dev/" />
     <link href="https://mattborja.dev/assets/css/bootstrap-5.2.0-beta1.min.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="https://mattborja.dev/style.css" rel="stylesheet" />
 </head>
 
 <body class="px-md-5 py-2 py-md-5">
@@ -32,7 +32,7 @@
                             </ul>
                         </div>
                         <div class="col-md-4 order-1 text-center mb-5">
-                            <img src="https://mattborja.dev/assets/img/mattborja-200x200.min.jpg" width="200" height="200" alt="Photo of this guy" class="img-thumbnail rounded-circle" />
+                            <a href="https://mattborja.dev"><img src="https://mattborja.dev/assets/img/mattborja-200x200.min.jpg" width="200" height="200" alt="Photo of this guy" class="img-thumbnail rounded-circle" /></a>
                         </div>
                         <div class="col-6 col-md-4 order-3 text-start">
                             <h6 class="small text-muted font-monospace">
@@ -55,14 +55,13 @@
             </div>
             <div id="post">
                 <div class="mb-5">
-                    <h3 class="mt-0 mb-4">Post Title</h3>
-                    <p>Post content</p>
+                    {{ content }}
                 </div>
             </div>
                 <div class="mt-5 pt-3 border-top small text-muted">
                     <div class="row">
                         <div class="col-md-4">
-                            <p>Copyright &copy; 2022 Matt Borja</p>
+                            <p>Copyright &copy; 2022 <a href="https://mattborja.dev">Matt Borja</a></p>
                             <p>License: <a href="https://github.com/mattborja/mattborja.github.io/blob/master/LICENSE.md" rel="nofollow">MIT</a></p>
                         </div>
                         <div class="col-md-4 text-md-center">
