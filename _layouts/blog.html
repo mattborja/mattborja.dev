@@ -55,11 +55,11 @@
             <div id="post">
                 <div class="mb-5">
                   <h2 class="mt-5 mb-4">Blog Posts</h2>
-                  {% for page in site.pages %}
                   <ul>
-                      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                      {% for post in site.posts %}
+                      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                      {% endfor %}
                   </ul>
-                  {% endfor %}
                 </div>
             </div>
             <div class="mt-5 pt-3 border-top small text-muted">
