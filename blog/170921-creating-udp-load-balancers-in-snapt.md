@@ -1,5 +1,5 @@
 # Creating UDP load balancers in Snapt
-by Matt Borja | Last updated: Sep. 21, '17
+Last updated: Sep. 21, '17
 
 ## Executive Summary
 As of the date of this writing (Sep. 21, '17), the ADC solution provided by Snapt has not supported the creation of UDP load balancers for the simple fact that its is underpinned by HAProxy which is strictly a TCP load balancer. However, Snapt Accelerator is based on NGINX which has [recently added support for UDP load balancing](https://www.nginx.com/blog/announcing-udp-load-balancing/) via [`upstream` groups](https://www.nginx.com/blog/tcp-load-balancing-udp-load-balancing-nginx-tips-tricks/#udpLB).
