@@ -5,7 +5,7 @@ permalink: /book-of-verifications.html
 Following is a record of select PGP keys and a description of the distinct methods used to independently verify each. Your mileage may vary.
 
 ## Table of Contents
-- [Verifying the Rocky Linux Official Signing Key](#pgp_verify-7051C470A929F454CEBE37B715AF5DAC6D745A60)
+- [Verifying the Rocky Linux Official Signing Key](#verifying-the-rocky-linux-official-signing-key)
 - Verifying `0xa85a05711d47a724`
 - Verifying `0x01483f262a4b3ff0`
 - Verifying `0x9a804e97d7079c77`
