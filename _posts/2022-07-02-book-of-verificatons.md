@@ -1,3 +1,6 @@
+---
+permalink: /book-of-verifications.html
+---
 # Book of Verifications
 Following is a record of select PGP keys and a description of the distinct methods used to independently verify each. Your mileage may vary.
 
