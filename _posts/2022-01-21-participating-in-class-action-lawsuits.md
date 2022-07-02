@@ -1,6 +1,3 @@
----
-permalink: /blog/220121-participating-in-class-action-lawsuits
----
 # Participating in Class Action Lawsuits
 I received one of those class action postcards in the mail (i.e. Plaintiff v. Company) that for all intents and purposes, would cost me only a couple minutes of my time to seize upon a portion of settlement that would help pay for my next Amazon shopping binge; and all I would have to do is fill out a form and let the lawyers do all the work. Sounds like a pretty sweet deal: "Where do I sign?"
 
