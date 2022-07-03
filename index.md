@@ -1,6 +1,3 @@
----
-permalink: /
----
 <div id="intro">
     <div class="mb-5">
         <h3 class="mt-0 mb-4">Hi there! 👋</h3>
