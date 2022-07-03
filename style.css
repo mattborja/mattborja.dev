@@ -42,11 +42,11 @@ body {
 }
 
 .text-muted, .text-secondary {
-  color: #fff8!important;
+  color: #bbb!important;
 }
 
 .text-success {
-  color: #0e0a!important;
+  color: #47c823!important;
 }
 
 .container {
@@ -58,7 +58,7 @@ a, code {
 }
 
 a:hover {
-  color: #ff5050;
+  color: #ffc5c5;
 }
 
 h1, h2, h3, h4, h5, h6 {
