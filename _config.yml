@@ -1,1 +1,6 @@
+author:
+  name: Matt Borja
+  picture: https://mattborja.dev/assets/img/mattborja-200x200.min.jpg
+  url: https://mattborja.dev/
+
 permalink: /blog/:short_year:month:day-:title:output_ext
