@@ -7,7 +7,7 @@
     
     <title>{{ page.title }}</title>
     <link rel="canonical" href="{{ page.url | absolute_url }}" />
-    <meta name="description" content="{{ page.excerpt }}" />
+    <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
     
     <meta name="author" content="Matt Borja" />
     <script type="application/ld+json">
