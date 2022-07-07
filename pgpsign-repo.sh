@@ -1,6 +1,8 @@
 #!/bin/sh
-# sign-assets.sh
-# Rebuilds MANIFESTSUM.sig from local directory using $PGP_KEY
+# pgpsign-repo.sh
+# Builds signed list (recursive) of SHA2 checksums in $TARGET_PATH using $PGP_KEY
+#
+# Example usage (current directory): pgpsign-repo.sh . 33688C2EDC08CD38 > MANIFESTSUM.asc
 # 
 # Copyright (c) 2022 Matt Borja
 # 
@@ -33,7 +35,7 @@ fi
 find "$TARGET_PATH" -type f -not -path "*/.*" -not -name "MANIFESTSUM.asc" \
  | sort \
  | xargs shasum -a 256 \
- | gpg --clearsign --armor --local-user "$PGP_KEY"
+ | gpg --clearsign --armor --local-user "$PGP_KEY" --comment "To verify this file, run: gpg -d MANIFESTSUM.asc | shasum -c"
 
 if [ "$?" -eq 0 ]; then
        >&2 echo "To verify (via decrypt) and verify checksums: gpg -d <FILE> | shasum -c"
