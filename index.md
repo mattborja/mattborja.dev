@@ -217,7 +217,7 @@
 <div id="disclaimer">
     <div class="my-5 py-5 border-top border-bottom">
         <h3 class="mt-0 mb-3">⚠️ Hold up...</h3>
-        <p class="m-0">You'll eventually get to this, but out of common courtesy, I feel it would be best to let you know upfront that a new <a href="https://mattborja.dev#legal">Legal</a> section has been added to this website: outlining your legal obligations when accessing this website. Please take a moment to review that section before continuing, in the event there is something you do not agree with and need to excuse yourself.</p>
+        <p class="m-0">You'll eventually get to this, but out of common courtesy, I feel it would be best to let you know upfront that a new <a href="https://mattborja.dev/LEGAL.html">Legal</a> section has been added to this website: outlining your legal obligations when accessing this website. Please take a moment to review that section before continuing, in the event there is something you do not agree with and need to excuse yourself.</p>
     </div>
 </div>
 <div id="methodologies">
@@ -323,32 +323,10 @@
 <div id="legal">
     <div class="mt-5">
         <h2>Legal</h2>
-        <p>Alright, time for the stuff most people don't care about (at least not until the service agent comes to pay them a visit).</p>
-        <h3 id="legal-export-compliance">Export Compliance &amp; Customs</h3>
-        <p>By accessing this website, you acknowledge that you understand all of the following:</p>
-        <ol>
-            <li>Any software and technical information published or referenced on this website or its code repository may be subject to the U.S. Export Administration Regulations (the “EAR”) and other U.S. and foreign laws and may not be exported, re-exported or transferred
-                <ul>
-                    <li>to a prohibited destination country under the EAR or U.S. sanctions regulations (currently Cuba, Iran, North Korea, Syria, and the Crimea Region of Ukraine, subject to change as posted by the United States government);</li>
-                    <li>to any prohibited destination or to any end user who has been prohibited from participating in U.S. export transactions by any federal agency of the U.S. government; or</li>
-                    <li>for use in connection with the design, development or production of nuclear, chemical or biological weapons, or rocket systems, space launch vehicles, or sounding rockets, or unmanned air vehicle systems.</li>
-                </ul>
-            </li>
-            <li>These terms are subject to change with or without notice.</li>
-        </ol>
-        <h4>Use of Information</h4>
-        <p>We use the information you provide to complete services and products you request. That is, we may use your information to show you additional products (if applicable), and other relevant products and services based upon the information you provide. These offers may come from us or a third-party service provider. We may use your contact information to share with you other related products and services. As permitted by law, we may also use the information you provide to address questions submitted to our customer or technical support systems, to send updates or security alerts, marketing messages, or to provide notification of new products, services, enhancements, and promotions.</p>
-        <p>Additionally, we also use the information we collect to monitor and investigate fraud, identity theft, and other illegal activity and to personalize and improve our Services.</p>
-        <h4>Disclaimers</h4>
-        <p>Please be advised that while the information posted on this website and other related web properties has been reviewed to the extent possible, its validity, recency, or relevancy cannot be guaranteed in whole or in part. The content of any published content may recently have been changed, vandalized, or altered by someone whose opinion does not correspond with the state of knowledge in the relevant fields.</p>
-        <p>No statements, recommendations, or opinions expressed by Matt Borja or associates anywhere shall be construed to constitute professional or legal advice.</p>
-        <h3 id="legal-license">License</h3>
-        <p>Copyright &copy; 2022 Matt Borja</p>
-        <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-        <ul>
-            <li>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</li>
-            <li>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</li>
-        </ul>
+        <p>To view the latest, please visit <a href="https://mattborja.dev/LEGAL.html">https://mattborja.dev/LEGAL.html</a>.</p>
+
+<h2 id="legal-license">License</h2>
+        <p>To view the latest, please see <a href="https://github.com/mattborja/mattborja.dev/blob/master/LICENSE.md" rel="nofollow">the repository's LICENSE.md file</a>.</p>
     </div>
 </div>
 <div id="contact">
