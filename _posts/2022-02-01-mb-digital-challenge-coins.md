@@ -183,4 +183,4 @@ Copyright &copy; 2022 [Matt Borja](https://mattborja.dev/)
 
 ## Document History
 - [From Feb. 1-16, '22](https://gist.github.com/mattborja/02542f05caedf55c497116cb5248e7f7)
-- [Current](https://github.com/mattborja/mattborja.dev/commits/master/_posts/2022-02-01-mb-digital-challenge-coins.md
+- [Current](https://github.com/mattborja/mattborja.dev/commits/master/_posts/2022-02-01-mb-digital-challenge-coins.md)
